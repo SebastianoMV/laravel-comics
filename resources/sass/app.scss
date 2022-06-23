@@ -53,42 +53,29 @@ header{
 
 
 
+.card{
+  margin-top: 40px;
+  border:  none;
+  .card-img{
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+  }
+  h5{
+    margin-top: 10px;
+    text-transform: uppercase;
+    width: 200px;
+  }
+  
+}
+
+
 
 
 .head-footer{
   height: 150px;
   background-color: #0282f9;
 }
-.container{
-  display: flex;
-  height: 100%;
-  
-  ul{
-    margin: 30px;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      li{
-        display: flex;
-        width: 100%;
-        align-items: center;
-        a{
-          color: white;
-          text-transform: uppercase;
-          margin-left: 5px;
-          width: 100%;
-          
-        }
-      }
-      
-    }
-}
-img{
-  max-width: 40px;
-  max-height: 40px;
-}
-
-
 
 
 
