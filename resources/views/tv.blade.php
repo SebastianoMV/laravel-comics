@@ -1,8 +1,7 @@
-
 @extends('layout.main')
 
 @section('content')
 
-<h1>Comics</h1>
+<h1>TV</h1>
 
 @endsection

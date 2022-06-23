@@ -1,0 +1,175 @@
+header {
+  height: 100px;
+}
+
+header .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container img {
+  width: 70px;
+}
+
+header .container ul {
+  display: flex;
+  height: 100px;
+}
+
+header .container ul li {
+  margin: 10px;
+  height: 100%;
+  list-style: none;
+}
+
+header .container ul li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  border-bottom: 4px solid transparent;
+}
+
+header .container ul li a:hover,
+header .container ul li a.active {
+  color: #0282f9;
+  border-bottom: 4px solid #0282f9;
+  text-decoration: none;
+}
+
+.jumbo {
+  position: relative;
+  height: 400px;
+  background-image: url("/img/jumbotron.jpg");
+}
+
+.jumbo .btn-jumbo {
+  position: absolute;
+  bottom: -20px;
+  padding: 10px 20px;
+  background-color: #0282f9;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.head-footer {
+  height: 150px;
+  background-color: #0282f9;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.container ul {
+  margin: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container ul li {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.container ul li a {
+  color: white;
+  text-transform: uppercase;
+  margin-left: 5px;
+  width: 100%;
+}
+
+img {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.main-footer {
+  height: 400px;
+  background-image: url("/img/footer-bg.jpg");
+}
+
+.main-footer .container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main-footer .container .ul-container-footer {
+  padding-top: 20px;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.main-footer .container .ul-container-footer h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.main-footer .container .ul-container-footer ul {
+  padding-left: 0;
+}
+
+.main-footer .container .ul-container-footer ul li {
+  margin-top: 5px;
+  list-style: none;
+}
+
+.main-footer .container .ul-container-footer ul a {
+  color: rgb(174, 172, 172);
+  text-decoration: none;
+}
+
+.foot-footer {
+  height: 100px;
+  background-color: #303030;
+}
+
+.foot-footer .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot-footer .container .btn-footer {
+  border: 2px solid #0282f9;
+  padding: 10px;
+}
+
+.foot-footer .container .btn-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.foot-footer .container .social {
+  color: #0282f9;
+  display: flex;
+  align-items: center;
+}
+
+.foot-footer .container .social img {
+  margin-left: 15px;
+}
+
+.logo-bg {
+  height: 100%;
+  width: 40%;
+  background-image: url("/img/dc-logo-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
